@@ -5,7 +5,7 @@
 
 int main() {
     Engine& engine = Engine::Instance();
-    engine.Start("Splash Test!");
+    engine.Start("Assignment 1 - Jonghoon Kim");
 
     Splash splash;
     engine.GetGameStateManager().AddGameState(splash);
